@@ -39,16 +39,7 @@ def add_note():
         "body": data["body"]
     })
  
-    return [
-        {
-            "title": "My first note",
-            "body": "This is the body"
-        },
-        {
-            "title": "My second note",
-            "body": "This is the second body"
-        },
-    ]
+    return notes
 
 
 if __name__ == "__main__":
